@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "lazyworldcreation",
+  "version": "${version}",
+
+  "name": "Better Preparation",
+  "description": "Improves world list loading, server list loading, and preparing for world creation",
+  "authors": [
+    "Kevinthegreat"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kevinthegreat1/BetterPreparation-Fabric",
+    "sources": "https://github.com/kevinthegreat1/BetterPreparation-Fabric",
+    "issues": "https://github.com/kevinthegreat1/BetterPreparation-Fabric/issues"
+  },
+
+  "license": "MIT",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.kevinthegreat.betterpreparation.BetterPreparation"
+    ]
+  },
+  "mixins": [
+    "betterpreparation.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
